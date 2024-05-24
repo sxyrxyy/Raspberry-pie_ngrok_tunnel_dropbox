@@ -12,10 +12,11 @@ This tool automates the process of changing the SSH connection settings, hardeni
 
 ## Installation
 
-git clone https://github.com/sxyrxyy/Raspberry-pie_ngrok_tunnel_dropbox.git
-cd Raspberry-pie_ngrok_tunnel_dropbox
-pip install -r requirements.txt
+- git clone https://github.com/sxyrxyy/Raspberry-pie_ngrok_tunnel_dropbox.git
+- cd Raspberry-pie_ngrok_tunnel_dropbox
+- pip install -r requirements.txt
 
 ### Setting Up a Cron Job
-sudo crontab -e
-@reboot sudo python /path/to/your/Raspberry-pie_ngrok_tunnel_dropbox/ngrok.py
+
+- sudo crontab -e
+- @reboot sudo python /path/to/your/Raspberry-pie_ngrok_tunnel_dropbox/ngrok.py
